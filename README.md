@@ -84,3 +84,14 @@ On `node2`:
 python3  -m torch.distributed.launch --nproc_per_node=4 --nnodes=2 --node_rank=1 --master_addr=node1 --master_port=54321 train.py --args
 ``` 
 
+# Citation
+When using this code please cite:
+```
+@inproceedings{arbelle2021GBS,
+  title={Detector-Free Weakly Supervised Grounding by Separation},
+  author={Arbelle, Assaf and Doveh, Sivan and Alfassy, Amit and Shtok, Joseph and Lev, Guy and Schwartz, Eli and Kuehne, Hilde and Levi, Hila Barak and Sattigeri, Prasanna and Panda, Rameswar and others},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={1801--1812},
+  year={2021}
+}
+```
