@@ -1,5 +1,7 @@
 # GroundingBySeparation
-Visual Image Grounding by image separation.
+Visual Image Grounding by image separation. 
+This repository is the implementation of the paper https://arxiv.org/abs/2104.09829
+
 
 # Installation:
 ## Requirements
